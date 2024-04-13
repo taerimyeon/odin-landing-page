@@ -125,3 +125,33 @@ a {
     font-weight: 800;
     text-align: end;
 }
+
+.action {
+    padding: 72px 140px;
+}
+
+.action-content {
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 48px 64px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action-bold-text {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.action-content button {
+    border: 2px #FFFFFF solid;
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px 24px;
+}
