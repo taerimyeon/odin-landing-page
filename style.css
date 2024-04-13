@@ -32,3 +32,45 @@ a {
     font-size: 24px;
     color: #F9FAF8;
 }
+
+.landing-body .hero {
+    background-color: #1F2937;
+    padding: 72px 140px;
+    display: flex;
+    align-items: stretch;
+}
+
+.hero div {
+    flex: 1 1 50%;
+}
+
+.hero .hero-text {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero .hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #919191;
+    color: #FFFFFF;
+}
+
+.hero-text .hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-right: 24px;
+}
+
+.hero-text button {
+    border-color: transparent;
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 12px 32px;
+}
