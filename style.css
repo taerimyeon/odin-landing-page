@@ -75,3 +75,37 @@ a {
     font-weight: 800;
     padding: 12px 32px;
 }
+
+.info {
+    padding: 72px 140px;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1F2937;
+}
+
+.info-images {
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.info-image {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.info-image .info-image-border {
+    border-radius: 12px;
+    border: 2px #3882F6 solid;
+    width: 100px;
+    height: 100px;
+}
