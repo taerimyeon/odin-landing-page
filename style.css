@@ -155,3 +155,11 @@ a {
     font-weight: 600;
     padding: 6px 24px;
 }
+
+.landing-footer {
+    background-color: #1F2937;
+    padding: 20px 140px;
+    text-align: center;
+    font-weight: 300;
+    color: #E5E7EB;   
+}
